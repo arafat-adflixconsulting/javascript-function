@@ -111,6 +111,7 @@ function noDuplicate(array) {
   let unique = [];
   for (let item of array) {
     if (unique.includes(item) === false) {
+      // jodi value ti unique array te na thake taole push hobe.
       unique.push(item);
     }
   }
