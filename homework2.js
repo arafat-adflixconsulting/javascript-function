@@ -34,3 +34,19 @@ function repeateTime(numbers, find) {
 let arrayNumbers = [5, 6, 11, 12, 98, 5];
 let checkNumber = repeateTime(arrayNumbers, 5);
 // console.log(checkNumber);
+
+// Task-3:
+/* Write a function to count the number of vowels in a string. */
+
+function vowels(context) {
+  let count = "";
+  let vowelList = ["a", "e", "i", "o", "u"];
+  for (let i = 0; i < context.length; i++) {
+    if (vowelList.includes(context[i].toLowerCase())) count++;
+  }
+  return count;
+}
+
+let text = "equipment";
+let quantityOfVowels = vowels(text);
+console.log(quantityOfVowels);
