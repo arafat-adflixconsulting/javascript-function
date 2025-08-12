@@ -61,6 +61,7 @@ let quantityOfVowels = vowels(text);
  * sample-input: I am learning Programming to become a programmer
  * sample-output: Programming
  */
+
 function findLongestWord(sentence) {
   let words = sentence.split(" "); // বাক্যকে স্পেস দিয়ে ভাগ করা
   let longest = words[0]; // প্রথম শব্দটাকে ধরা
@@ -76,8 +77,3 @@ function findLongestWord(sentence) {
 
 let mainText = "I am learning Programming to become a programmer";
 console.log(findLongestWord(mainText)); // Output: Programming
-
-/* Generate a random number
- * between 10 to 20.
- */
-console.log(Math.random() * 10);
