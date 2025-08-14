@@ -74,6 +74,3 @@ function findLongestWord(sentence) {
 
   return longest;
 }
-
-let mainText = "I am learning Programming to become a programmer";
-console.log(findLongestWord(mainText)); // Output: Programming
